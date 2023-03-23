@@ -1,0 +1,483 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+
+.center{
+  display:flex;
+  max-width: 1100px;
+  padding: 0 2%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+section.main{
+  background-image: url(images/bg.svg);
+  background-position: center;
+  background-size: cover;
+  min-height: 700px;
+  padding: 20px 0 80px 0 ;
+
+}
+
+.menu{display: flex;width: 100%;}
+
+.logo-menu{width: 50%;}
+
+.items-menu{
+  text-align: right
+}
+
+.items-menu a{
+  font-weight:  bold;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 10px;
+
+
+}
+
+.items-menu a:hover{
+  border-bottom: 2px solid #FFDD33;
+
+}
+
+
+.items-menu a.contact-btn{
+  background-color:#0F3FD3 ;
+  padding: 5px 5px;
+  border-radius: 10px;
+
+}
+
+.items-menu a.contact-btn:hover{
+  border: 0;
+
+}
+
+.mockup{display:block;width: 100%;color: white;text-align: center;padding-top: 100px;}
+
+
+.mockup h1{
+  font-size: 50px;
+}
+.mockup img{max-width: 100%;}
+
+section.marcas{
+  padding: 100px 0;
+}
+
+
+section.marcas img{
+  width: calc(100% / 5);
+}
+
+section.porque-nos{
+  padding: 40px 0;
+  background-color: #fbfcfe;
+
+}
+
+section.porque-nos > .center > h2 {
+  font-size: 64px;
+  text-align: center;
+  width: 100%;
+
+}
+
+section.porque-nos > .center{
+  max-width: 1200px;
+}
+
+section.porque-nos > .center > p{
+  font-size: 14px;
+  color: #ccc;
+  text-align: center;
+  width: 100%;
+}
+
+.diferenciais{
+  display: flex;
+;
+  
+
+}
+
+.box-diferenciais{
+  box-shadow: 20px 40px 80px #2426721C;
+  width: 65% 65% 65%;
+  margin-right: 2%;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 10px;
+
+}
+
+.box-diferenciais h3{
+  font-size: 28px;
+  color: black;
+  margin: 20px;
+
+}
+
+.box-diferenciais p{
+  font-size: 13px;
+  color: #7e92ac;
+  margin-bottom: 20px;
+
+}
+
+
+section.cta{
+  background-image: url('images/banner.svg');
+  background-size: cover;
+  background-position: center;
+  padding: 40px 0;
+  min-height: 200px;
+  color: white;
+  text-align: center;
+}
+
+section.cta h2,
+section.cta h4{
+  font-weight: normal;
+  margin: 15px;
+
+}
+
+
+section.cta h2{
+  font-size: 30px;
+}
+
+section.cta a{
+  display: inline-block;
+  padding:4px 15px ;
+  border-radius: 7px;
+  font-weight: bold;
+  font-size: 17px;
+  background-color: #FFDD33;
+  text-decoration: none;
+  color: #0F3FD3;
+  
+}
+
+section.beneficios a {
+  display: inline-block;
+  padding:4px 15px ;
+  border-radius: 7px;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: #0F3FD3;
+  text-decoration: none;
+  color: white;
+  
+}
+
+
+
+section.beneficios{
+  padding: 50px 0 ;
+}
+
+.lista-beneficios{
+  
+  width: 40%;
+  margin-top: 30px;
+}
+
+.lista-beneficios h1{
+  color: black;
+  font-size: 30px;
+  margin-top: 10px
+}
+
+.lista-beneficios p{
+  color: #7e92ac;
+  vertical-align: middle;
+  font-size: 14px;
+  ;
+}
+
+.lista-beneficios span{
+  display: inline-block;
+  width: calc(100% - 70px);
+}
+
+.lista-beneficios img{
+  display: inline-block;
+  vertical-align: middle;
+  width: 70px;
+}
+.img-beneficios {
+  width: 60%;
+}
+
+
+
+.img-beneficios img{ max-width: 100%;}
+
+section.depoimentos{
+  background-color: #fbfcfe;
+  padding: 40px 0%;
+}
+
+section.depoimentos > h1{
+  text-align: center;
+  font-size:50px ;
+}
+
+.container-slider{
+  overflow: hidden;
+  padding: 40px 0;
+}
+
+.container-slider-single{
+  float: left;
+  background-color:white;
+  text-align: center;
+  padding: 15px;
+  border-radius:10px ;
+}
+
+.container-slider-single p{
+  margin: 15px 0;
+  color: #7e92ac;
+  font-size: 14px;
+
+}
+
+
+
+.slick-slider {
+  margin-left: -27px;
+}
+
+.slick-dotter ul{
+  list-style-type:none;
+  text-align: center;
+  position: relative;
+  margin: 30px;
+
+}
+
+.slick-dotter l1{
+  display: inline-block;
+  margin: 0 7px;
+}
+
+.slick-dotter button:focus{
+  outline: 0;
+
+}
+
+
+.slick-dotter li button{
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  color: #d8d8d8;
+  border-width: 0;
+  background: #d8d8d8;
+  opacity: 1;
+  cursor: pointer;
+}
+
+li.slick-active button{
+  background: #2426721C;
+  color: #2426721C;
+}
+
+
+.slick-slider:focus {outline: none;}
+
+
+/*fim slick slider*/
+
+
+
+section.contato{
+  padding: 40pc 0;
+  text-align: center;
+
+}
+
+section.contato h1{
+  font-size: 50px;
+}
+
+section.contato form{
+  width: 100%;
+}
+
+
+.contato input[type=text],
+.contato input[type=email]{
+  width: 100%;
+  height: 50px;
+  margin: 20px 0;
+  border-radius: 10px;
+  background: #fcfcff;
+  border: 1px solid #c3cce8;
+  padding-left: 10px;
+}
+
+
+.contato textarea{
+  width: 100%;
+  height: 120px;
+  margin: 20px 0;
+  border-radius: 10px;
+  background: #fcfcff;
+  border: 1px solid #c3cce8;
+  padding-left: 10px;
+  resize: vertical;
+}
+
+
+.contato input[type=submit]{
+  width: 100%;
+  height: 50px;
+  display: block;
+  cursor: pointer;
+  border: 0;
+  background: #255aff;
+  color: white;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+
+footer {
+  padding: 10px 20;
+  background-color: #255aff;
+  color: white;
+}
+
+.text-footer{
+  width: 50%;
+  padding:8px 0;
+}
+
+.items-menu-mobile{
+  width: 50%;
+  text-align: right;
+  display: none;
+
+}
+
+.items-menu-mobile i{
+  color: white;
+  position: relative;
+  top: 15px;
+  font-size: 23px;
+  cursor: pointer;
+}
+
+
+@media screen and ( max-width: 768px) {
+
+  .items-menu-mobile{
+    display: block;
+    
+    
+  }
+
+
+  .menu-mobile{
+    
+    opacity: 0 ;
+    transition: 1s;
+    position: absolute;
+    left: 0;
+    top: 65px;
+    background-color: white;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+
+  }
+
+  .show{
+    opacity: 1;
+  }
+
+  .hide{
+    opacity: 0;
+  }
+
+  .menu-mobile a{
+    text-align: center;
+    display: block;
+    margin: 10px 0;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  section.main .items-menu{
+    display: none;
+  }
+
+  footer .items-menu{
+    width: 100%;
+    text-align: center;
+  }
+
+  footer .items-menu a{
+    display: block;
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  .text-footer{
+    width: 100%;
+    text-align: center;
+    padding: 8px 0;
+  }
+
+  .lista-beneficios, .img-beneficios{
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  
+  .box-diferenciais{
+    width: 100%;
+    margin-right: 0;
+  }
+  
+  
+  .diferenciais {
+    flex-wrap: wrap; 
+  }
+
+  
+
+  section.marcas > .center{
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  section.marcas img {
+    max-width: 300px;
+    
+    width: 100%;
+    
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
